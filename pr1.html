@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            width: 500px;
+            height: 500px;
+            
+            border-radius: 20px;
+
+        }
+
+        .game{
+            width: 330px;
+            height: 330px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            font-size: 55px;
+            border-radius: 20px;
+            
+        }
+
+        #reset{
+            width: 100px;
+            height: 50px;
+            
+            font-size: 20px;
+            margin: 30px;
+        }
+
+    </style>
+</head>
+<body style="background-color: lightgreen;">
+    <center>
+        <h1>Welcome !</h1>
+        <h2>This is..</h2>
+        <div class="container">
+            <h1>Tic-Tac-Toe</h1>
+            <div class="game" >
+                <button class="box"
+                id="bx1"></button>
+                <button class="box" id="bx2"></button>
+                <button id="bx3" class="box"></button>
+                <button id="bx4" class="box"></button>
+                <button id="bx5" class="box"></button>
+                <button id="bx6" class="box"></button>
+                <button id="bx7" class="box"></button>
+                <button id="bx8" class="box"></button>
+                <button id="bx9" class="box"></button>
+
+            </div>
+
+            <button id="reset">Reset</button>
+    
+        </div>
+    </center>
+    
+    <script src="pr1.js"></script>
+</body>
+</html>
